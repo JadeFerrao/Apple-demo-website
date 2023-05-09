@@ -1,0 +1,100 @@
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+</style>
+<body bgcolor="black">
+<div id="navbar">
+  <a class="active" href="home.html"><i class="fa fa-fw fa-apple"></i> Home</a> 
+  <a href="products.html"><i class="fa fa-fw fa-umbrella"></i> Products</a>
+  <a href="service.html"><i class="fa fa-fw fa-star"></i> Specials</a> 
+  <a href="#"><i class="fa fa-fw fa-home"></i> Events</a>
+  <a href="buy.html"><i class="fa fa-shopping-bag"></i> Buy</a>
+  <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+</div>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+
+<p align="center">
+<font face="agency fb"</font>
+<p align="center"><h1><font color="orange">These are the products that make us the world's most trusted company with its best products.These products are designed with atmost care and best materials,To show that we are Eco-friendly towards nature.</h1></p>
+<p align="center">
+
+<h2><center><font face="agency fb"</font><a href="watches.html">learn more:</a><br>
+<center><img src="series6.jpg" width="300" height="200"><li>WATCHES</li><br>
+<font face="agency fb"</font><a href="airpods.html">learn more:</a><br>
+<center><img src="airpods2.png" width="300" height="200"><li>AIRPODS</li><br>
+<font face="agency fb"</font><a href="tv.html">learn more:</a><br>
+<center><img src="tv.jpg" width="300" height="200"><li>APPLE TV</li><br>
+<font face="agency fb"</font><a href="iphones.html">learn more:</a><br>
+<center><img src="phones.jpg" width="300" height="200"><li>IPHONES</li><br>
+<font face="agency fb"</font><a href="macbooks.html">learn more:</a><br>
+<center><img src="book.jpg" width="400" height="200"><li>MACBOOKS</li><br>
+<font face="agency fb"</font><a href="ipads.html">learn more:</a><br>
+<center><img src="ipadair kk.jpg" width="200" height="200"><li>IPADS</li><br>
+<font face="agency fb"</font><a href="homepods.html">learn more:</a><br>
+<center><img src="mini.jfif" width="200" height="200"><li>HOME POD</li></h2><br>
+
+</p>

@@ -1,0 +1,175 @@
+<!doctypehtml>
+<head>
+<title>Apple.com</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {
+  margin: 0;
+  font-size: 28px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.header {
+  background-color: #f1f1f1;
+  padding: 30px;
+  text-align: center;
+}
+
+#navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+#navbar a {
+  float: left;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+#navbar a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+#navbar a.active {
+  background-color: #04AA6D;
+  color: white;
+}
+
+.content {
+  padding: 16px;
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + .content {
+  padding-top: 60px;
+}
+.topnav a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #ddd;
+  color: black;
+}
+
+.topnav a.active {
+  background-color: #2196F3;
+  color: white;
+}
+
+.topnav .login-container {
+  float: right;
+}
+
+.topnav .login-container button {
+  float: right;
+  padding: 1px 8px;
+  margin-top: 8px;
+  margin-right: 16px;
+  background-color: #555;
+  color: white;
+  font-size: 17px;
+  border: none;
+  cursor: pointer;
+}
+
+.topnav .login-container button:hover {
+  background-color: green;
+}
+
+@media screen and (max-width: 600px) {
+  .topnav .login-container {
+    float: none;
+  }
+</style>
+
+<body bgcolor="black">
+<div id="navbar">
+  <a class="active" href="home.html"><i class="fa fa-fw fa-apple"></i> Home</a> 
+  <a href="products.html"><i class="fa fa-fw fa-umbrella"></i> Products</a>
+  <a href="service.html"><i class="fa fa-fw fa-star"></i> Specials</a> 
+  <a href="#"><i class="fa fa-fw fa-home"></i> Events</a>
+  <a href="buy.html"><i class="fa fa-shopping-bag"></i> Buy</a>
+  <a href="#"><i class="fa fa-fw fa-search"></i> Search</a>
+  <div class="topnav"> 
+  <div class="login-container">
+      <button type="submit"><a href="#"><i class="fa fa-fw fa-user"></i>Login</a></button>
+  </div>
+</div>
+
+</div>
+<script>
+window.onscroll = function() {myFunction()};
+
+var navbar = document.getElementById("navbar");
+var sticky = navbar.offsetTop;
+
+function myFunction() {
+  if (window.pageYOffset >= sticky) {
+    navbar.classList.add("sticky")
+  } else {
+    navbar.classList.remove("sticky");
+  }
+}
+</script>
+<br>
+<br>
+<br>
+<br>
+<center><img src="logo2.png" width="120" height="120"><h1 align="center"><font color="orange"><font face="mv boli"><h1>
+<hr color="gray">
+<marquee scrollamount="20">With the biggest invitations from apple,We invite you to witness the Apple launch event at the Steve Jobs Theatre,Cupertino on the 13<sup>th</sup>of october at 10:30pm IST.</marquee>
+<body bgcolor="lavender">
+<p align="center">
+Watch the event below!<br>
+<video controls="controls" width="50%" height="50%" autoplay poster="event2.jpg">
+<source src="eventvideo.mp4" type="video/mp4">
+</video></p>                                             
+<font face="agency fb">
+<p align="center">These are the products that make us the world's most trusted company with its best products.These products are designed with atmost care and best materials,To show that we are Eco-friendly towards nature.<br>
+<center>Your privacy is our concern and it should it stay with you. You take control of your own data.</p>
+<center><img src="privacy.jfif" width="50%" height="50%">
+<hr color="gray">
+We have something special for you below:
+<p align="center">
+<video controls="controls" width="50%" height="50%" autoplay poster="robot.jpg">
+<source src="robot video.mp4" type="video/mp4">
+</video></p>
+<br>
+Yes,HE is liam, one state of the art robot, which helps us remove the parts of your old phone and is further used to build a new one.We are heading towards a renewable and sustainable future and want it to be 100 % carbon neutral.As you know somethings cannot be replaced but can be RECYCLED.
+<br>
+Brilliant Isn't it!!! .
+<br>
+<br>
+<center>Wanna get discounts on your old phone,You can also exchange here it for a new one.
+<br>
+<br>
+<center><a class="active" href=".html">RECYCLE HERE</a>
+<hr color="gray">
+<font face="agency fb"</font>
+<p align="center">
+If you have any queries,suggestions or comments,about our service or our products feel free to express them down below.Please do not hesitate to ask us anything as it will help make us better more and more.</p>
+<font face="agency fb"</font>
+<p align="left">SUGGESTIONS:
+<br>
+<textarea rows=8 cols=800 placeholder="Type to text"></textarea></p>
+<hr color="grey">
+</body>
+</html>
